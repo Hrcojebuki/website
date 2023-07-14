@@ -1,0 +1,664 @@
+#mainTitle,
+#account1pHeading,
+#account2pHeading {
+    margin-top: 10%;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+#account1pHeading,
+#account2pHeading{
+    font-size:300%;
+}
+
+#account1p,
+#account2p{
+    margin-top:5%;
+}
+
+.container {
+    flex-direction: column;
+}
+
+#exclusiveOffer1p .container,
+#exclusiveOffer2p .container {
+    flex-direction: row;
+    
+}
+
+footer .container {
+    flex-direction: row;
+}
+
+#getFunded1p,
+#getFunded2p {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#getFunded1p img,
+#getFunded2p img{
+    transform: translateY(2px);
+}
+
+#mainParagraph1p,
+#mainParagraph2p {
+    max-width: 60%;
+    margin-top:80px;
+}
+
+table {
+    margin-top: 5%;
+}
+
+#exclusiveOffer1,
+#exclusiveOffer2 {
+    flex-direction: column;
+    margin-top: 5%;
+    border: 1px solid #ffffff;
+    border-radius: 20px 0 0 20px;
+    padding: 50px 20px;
+    backdrop-filter: blur(10px);
+}
+
+#exclusiveOffer1 a,
+#exclusiveOffer2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#exclusiveOffer1 div.highlight,
+#exclusiveOffer2 div.highlight {
+    margin-top: 20px;
+    font-size: 250%;
+}
+
+#exclusiveOffer2 {
+    border-radius: 0 20px 20px 0;
+}
+
+#tradingRules1p,
+#tradingRules2p {
+    margin-top: 10%;
+}
+
+#tradingRules1pHeading,
+#tradingRules2pHeading {
+    text-transform: uppercase;
+    font-size: 250%;
+}
+
+#tradingRules1p div#rules1p,
+#tradingRules2p div#rules2p {
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+}
+
+#tradingRules1p div#rules1p a,
+#tradingRules2p div#rules2p a {
+    text-decoration: none;
+    width: 60%;
+    text-align: center;
+    margin: 10px;
+
+}
+
+#moreRules1p,
+#moreRules2p {
+    margin-top: 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#moreRules1p img,
+#moreRules2p img{
+    transform:translateY(3px);
+}
+
+/* responsive */
+
+@media(max-width:804px) {
+
+    #tradingRules1p div#rules1p a,
+    #tradingRules2p div#rules2p a {
+        text-decoration: none;
+        width: 100%;
+
+    }
+}
+
+@media(max-width:703px){
+    #account1pHeading,
+    #account2pHeading{
+        text-align: center;
+    }
+
+    #mainTitle{
+        font-size:300%;
+    }
+}
+
+
+@media(max-width:627px){
+    #exclusiveOffer1,
+    #exclusiveOffer2{
+        border-radius:40px;
+        margin-top:50px;
+    }
+}
+
+@media(max-width:926px){
+    #getFunded1p img,
+    #getFunded2p img{
+        display:none;
+    }
+
+    #moreRules1p img,
+    #moreRules2p img{
+        display:none;
+    }
+
+    #afilliateTop .button img{
+        display: none;
+    }
+
+    #whoCanBecome .container a img{
+        display: none;
+    }
+}
+
+/* limitless funding 2.0 */
+
+#limitlessFundingMainTitle{
+    text-transform: uppercase;
+    font-size: 600%;
+    text-align: center;
+}
+
+#limitlesFundingTop{
+    margin-top:15%;
+}
+
+#whatIs{
+    margin-top:10%;
+}
+
+#whatIs p{
+    max-width: 60%;
+}
+
+#userBenefits{
+    margin-top:7%;
+}
+
+#userBenefits .largeTitle{
+    text-align: center;
+}
+
+#userBenefits p{
+    max-width: 60%;
+    margin-top:50px;
+}
+
+#userBenefitButtons{
+    flex-direction: column;
+    margin-top:20px;
+    gap:10px;
+    margin-top:40px;
+}
+
+#userBenefitButtons a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+#topButtons{
+    gap:20px;
+}
+
+#userBenefitsBottomButton{
+    margin-left: 5px;
+}
+
+#exclusiveFeatures2Title{
+    margin-top: 15%;
+}
+
+#exclusiveFeatures2Title .largeTitle{
+    font-size: 500%;
+}
+
+#copyTrading{
+    margin-top: 5%;
+}
+
+#copyTrading p{
+    max-width: 60%;
+    margin-top:60px;
+}
+
+#copyTradingBoxes{
+    gap: 20px;
+    margin-top: 40px;
+    backdrop-filter: blur(10px);
+}
+
+#copyTradingBox1 p{
+    margin:2%;
+}
+
+#copyTradingBox2 p{
+    margin:2.6%;
+}
+
+.copyTradingBox{
+    flex-direction: column;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    padding:20px;
+    width: 30%;
+    height:30%;
+}
+
+#instantFunding{
+    margin-top: 15%;
+}
+
+#instantFunding .largeTitle{
+    flex-direction: column;
+    text-align: center;
+}
+
+#instantFunding span#moreInfo{
+    font-size: 60%;
+}
+
+#instantFundingBoxes{
+    margin-top:40px;
+    backdrop-filter:blur(10px);
+}
+
+.instantFundingBox{
+    border:1px solid #ffffff;
+    padding:40px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#instantFundingBox1{
+    border-radius: 20px 0 0 20px;
+}
+
+#instantFundingBox2{
+    border-radius: 0;
+}
+
+#instantFundingBox3{
+    border-radius: 0 20px 20px 0;
+}
+
+#exclusiveFeatures2{
+    margin-top:5%;
+}
+
+#exclusiveFeatures2 p{
+    border:1px solid #ffffff;
+    padding:20px;
+    border-radius:20px;
+    max-width: 60%;
+}
+
+#storedValueCard,
+#evaluations,
+#expressScaling,
+#tradingView,
+#comission{
+    margin-top:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter:blur(10px);
+}
+
+
+
+
+
+.border{
+    border-bottom: 1px solid #ccc;
+    width: 80%;
+    margin-top:100px;
+}
+
+.largeTitle{
+    flex-direction: column;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+
+@media(max-width:1288px){
+    .flex{
+        flex-direction: column;
+    }
+
+    #limitlessFundingMainTitle{
+        font-size: 300%;
+        margin-top:40px;
+    }
+
+    #exclusiveFeatures2Title{
+        font-size: 70%;
+        text-align: center;
+        margin-top:40px;
+    }
+
+    #userBenefitButtons a{
+        margin:10px 0;
+    }
+
+    #instantFundingBoxes{
+        gap:20px;
+    }
+
+    #instantFundingBox1,
+    #instantFundingBox2,
+    #instantFundingBox3{
+        border-radius: 20px;
+    }
+
+    .copyTradingBox{
+        width:80%;
+    }
+}
+
+@media(max-width:912px){
+    .copyTradingBox{
+        width:80%;
+    }
+
+    #exclusiveFeatures2 p{
+        max-width: 80%;
+    }
+}
+
+
+
+/* affiliate */
+
+#afilliateTop{
+    margin-top:8%;
+}
+
+#affiliateMainTitle{
+    font-size:500%;
+    text-transform: uppercase;
+    flex-direction: column;
+}
+
+#afilliateTop .container a{
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:40px;
+}
+
+#afilliateTop .container a img{
+    transform:translateY(3px);
+}
+
+#afilliateTop .container p{
+    max-width: 60%;
+    margin-top:50px;
+}
+
+#whyChoose{
+    margin-top:15%;
+    padding-bottom:200px;
+
+}
+
+#whyChooseBoxes{
+    margin-top:5%;
+    margin-right: 30px;
+    gap:20px;
+    backdrop-filter: blur(10px);
+}
+
+.percentage{
+    font-size:70%;
+}
+
+#whyChooseBox1{
+    transform:translateY(150px);
+}
+
+#whyChooseBox2{
+    transform:translateY(100px);
+}
+
+#whyChooseBox3{
+    transform:translateY(50px);
+}
+
+.whyChooseBox{
+    border: 1px solid #ffffff;
+    border-radius:20px;
+    padding:20px;
+    flex-direction: column;
+}
+
+.whyChooseBox div.highlight{
+    font-size:400%;
+}
+
+#earnRewards{
+    margin-top:15%;
+}
+
+.earnRewardsBox{
+    flex-direction: column;
+    border:1px solid #ffffff;
+    padding:40px;
+    gap:20px;
+    backdrop-filter:blur(10px);
+}
+
+.earnRewardsBox p{
+    max-width: 60%;
+}
+
+.earnRewardsBox div.highlight{
+    font-size: 400%;
+}
+
+.earnRewardsBox a{
+    text-decoration: none;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+
+#earnRewardsBoxes{
+    margin-top:5%;
+    padding:0 9px;
+}
+
+#earnRewardsBox1{
+    border-radius:20px 0 0 20px;
+}
+
+#earnRewardsBox2{
+    border-radius:0;
+}
+
+#earnRewardsBox3{
+    border-radius:0 20px 20px 0;
+}
+
+
+#earnProfitSplits{
+    margin-top:15%;
+}
+
+#earnProfitSplitsBox{
+    flex-direction: column;
+    border:1px solid #ffffff;
+    border-radius:20px 40px;
+    padding:20px;
+    margin-top:40px;
+    backdrop-filter:blur(10px);
+}
+
+#earnProfitSplitsBox div.highlight{
+    font-size:400%;
+}
+
+#howToBecome{
+    margin-top:15%;
+}
+
+#howToBecome .largeTitle{
+    text-align: center;
+}
+
+#howToBecomeBoxes{
+    gap:40px;
+    margin-top:40px;
+    backdrop-filter:blur(10px);
+}
+
+.howToBecomeBox{
+    flex-direction: column;
+    border:1px solid #ffffff;
+    border-radius:20px;
+    padding:20px;
+    margin-top:20px;
+    height:300px;
+    width:300px;
+}
+
+.howToBecomeBox p{
+    max-width:60%;
+    text-align: center;
+}
+
+#whoCanBecome{
+    margin-top:15%;
+    padding-bottom:15%;
+}
+
+#whoCanBecomeBox{
+    flex-direction: column;
+    border:1px solid #ffffff;
+    border-radius:20px;
+    margin-top:40px;
+    padding:20px;
+    backdrop-filter:blur(10px);
+}
+
+#whoCanBecomeBox p{
+    max-width:60%;
+}
+
+#whoCanBecome .container a{
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:40px;
+}
+
+#whoCanBecome .container a img{
+    transform:translateY(3px);
+}
+
+@media(max-width:1288px){
+    .flex{
+        flex-direction:column;
+    }
+
+    #whyChooseBox1{
+        transform:translateY(0);
+    }
+    
+    #whyChooseBox2{
+        transform:translateY(0);
+    }
+    
+    #whyChooseBox3{
+        transform:translateY(0);
+    }
+
+    #earnRewardsBoxes{
+        gap:20px;
+        
+    }
+
+    #earnRewardsBoxes .earnRewardsBox{
+        border-radius:20px;
+    }
+
+    #socialMedia{
+        flex-direction: row;
+    }
+
+    #affiliateMainTitle{
+        font-size:220%;
+        
+    }
+
+    #earnProfitSplits div.largeTitle{
+        font-size:150%;
+        margin-top:40px;
+    }
+
+    #whyChoose div.largeTitle{
+        font-size:150%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #whyChoose{
+       padding-bottom: 40px;
+    
+    }
+
+    #whyChooseBoxes{
+        margin-right:0;
+    }
+
+    #affiliateMainTitle{
+        font-size:200%;
+    }
+}
+
+.container {
+    width: 100%;
+    /* Set your desired width */
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+@media (max-width: 1100px) {
+
+    /* Adjust the container position for zoom levels between 67% and 75% */
+    .container {
+        margin: 0;
+        padding-left: calc((100% - 960px) / 2);
+    }
+
+    #copyTradingBox1 p{
+        margin:2% 0;
+    }
+    
+    #copyTradingBox2 p{
+        margin:2.6% 0;
+    }
+}
+
+
+
